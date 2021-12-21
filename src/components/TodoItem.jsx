@@ -1,13 +1,7 @@
 import React from "react";
-import "./TodoItem.css";
+import "../styles/components/TodoItem.css";
 
 const TodoItem = (props) => {
-    
-
-    const onDelete = () => {
-        alert(props.text + " is deleted");
-    };
-
     return (
         <li className="TodoItem">
             <span

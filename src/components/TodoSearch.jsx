@@ -15,7 +15,7 @@ const TodoSearch = () => {
     return (
         <input
             className="TodoSearch"
-            placeholder="Cebolla"
+            placeholder="Search your To Do"
 			value={searchValue}
             onChange={onSearchValueChange}
         />)

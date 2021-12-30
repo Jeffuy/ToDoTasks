@@ -4,14 +4,12 @@ import "../styles/components/TodoItem.css";
 const TodoItem = (props) => {
     return (
         <li className="TodoItem">
-            <span
-                className={`Icon Icon-check ${
+            <i
+                className={`Icon Icon-check fas fa-check-circle fa-2x ${
                     props.completed && "Icon-check--active"
                 }`}
                 onClick={props.onComplete}
-            >
-                √
-            </span>
+            ></i>
             <p
                 className={`TodoItem-p ${
                     props.completed && "TodoItem-p--complete"
@@ -19,9 +17,10 @@ const TodoItem = (props) => {
             >
                 {props.text}
             </p>
-            <span className="Icon Icon-delete" onClick={props.onDelete}>
-                X
-            </span>
+            <i
+                className="fas fa-trash-alt fa-2x Icon-delete"
+                onClick={props.onDelete}
+            ></i>
         </li>
     );
 };

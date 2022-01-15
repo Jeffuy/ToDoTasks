@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/introduccion-react/static/css/main.bea2ad31.chunk.css",
-    "main.js": "/introduccion-react/static/js/main.550c7023.chunk.js",
-    "main.js.map": "/introduccion-react/static/js/main.550c7023.chunk.js.map",
+    "main.css": "/introduccion-react/static/css/main.f70a5732.chunk.css",
+    "main.js": "/introduccion-react/static/js/main.1f61c5ef.chunk.js",
+    "main.js.map": "/introduccion-react/static/js/main.1f61c5ef.chunk.js.map",
     "runtime-main.js": "/introduccion-react/static/js/runtime-main.02336d13.js",
     "runtime-main.js.map": "/introduccion-react/static/js/runtime-main.02336d13.js.map",
     "static/js/2.cb8ae87e.chunk.js": "/introduccion-react/static/js/2.cb8ae87e.chunk.js",
     "static/js/2.cb8ae87e.chunk.js.map": "/introduccion-react/static/js/2.cb8ae87e.chunk.js.map",
     "index.html": "/introduccion-react/index.html",
-    "static/css/main.bea2ad31.chunk.css.map": "/introduccion-react/static/css/main.bea2ad31.chunk.css.map",
+    "static/css/main.f70a5732.chunk.css.map": "/introduccion-react/static/css/main.f70a5732.chunk.css.map",
     "static/js/2.cb8ae87e.chunk.js.LICENSE.txt": "/introduccion-react/static/js/2.cb8ae87e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.02336d13.js",
     "static/js/2.cb8ae87e.chunk.js",
-    "static/css/main.bea2ad31.chunk.css",
-    "static/js/main.550c7023.chunk.js"
+    "static/css/main.f70a5732.chunk.css",
+    "static/js/main.1f61c5ef.chunk.js"
   ]
 }

@@ -14,21 +14,26 @@ import { useTodos } from "../hooks/useTodos";
 import { ChangeAlert } from "../components/ChangeAlert";
 
 function App() {
+    const { states, stateUpdaters } = useTodos();
+
     const {
-        error,
         loading,
-        totalTodos,
+        error,
         completedTodos,
-        searchValue,
-        setSearchValue,
         searchedTodos,
+        openModal,
+        totalTodos,
+        searchValue,
+    } = states;
+
+    const {
+        setSearchValue,
         addTodo,
         completeTodo,
         deleteTodo,
-        openModal,
         setOpenModal,
         sincronizeTodos,
-    } = useTodos();
+    } = stateUpdaters;
 
     return (
         <>
